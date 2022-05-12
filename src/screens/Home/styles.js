@@ -49,6 +49,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default styles;  image: {
-
-}
+export default styles;

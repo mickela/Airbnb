@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         lineHeight: 26
     },
-    prices: {
+    prices: { 
         fontSize: 18,
         marginVertical: 10
     },

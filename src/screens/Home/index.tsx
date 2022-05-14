@@ -3,7 +3,7 @@ import { View, ImageBackground, Text, Pressable } from 'react-native'
 import styles from './styles';
 
 
-const HomeScreen = (props) => {
+const HomeScreen = () => {
   return (
       <View>
         {/* Search bar */}

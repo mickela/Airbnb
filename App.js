@@ -20,7 +20,9 @@ import {
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import HomeScreen from './src/screens/Home/';
-import Post from './src/components/Post/';
+import SearchResultScreen from './src/screens/SearchResults'
+import SearchScreen from './src/screens/Search'
+
 
 
 const App: () => Node = () => {
@@ -34,7 +36,8 @@ const App: () => Node = () => {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       {/* <HomeScreen /> */}
-      <Post />
+      {/* <SearchResultScreen /> */}
+      <SearchScreen />
     </SafeAreaView>
   );
 };
